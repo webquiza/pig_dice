@@ -18,17 +18,15 @@ ___
 
 ### What will happen when a user clicks "Roll Dice"?
 ```
-Generate a random number.
-if random number === or > 2 then addScore to currentPlayer else currentPlayer score = 0 AND passDice.
-let runningScore = Keeps track of current user score, if 1 is rolled subtract current total from current user score.
+Generate a randomNumber.
+if randomNumber === or > 2 then addScore to currentPlayer else currentPlayer score = 0 AND passDice.
+let runningScore = Keeps track of current userScore, if 1 is rolled subtract current total from current userScore.
 if currentPlayer score is === or > 100, return message "You have won!". 
 ```
-### What objects will you need?
+### What objects will you need? / How are you deciding to organize this information? 
 
 ```
-How are you deciding to organize this information? (use object rather than array because we want key value system)
-Placeholders (key value = player1 score)
-What information do we need from each player. 
+Use objects in order to have key values.
 If number is 1 go back to 0, if number reaches 100 user wins. 
 ```
 

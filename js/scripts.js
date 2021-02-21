@@ -7,7 +7,7 @@
 //}
 
 function randomNumber () {
-  Math.floor(Math.random() * 6) + 1;
+  return Math.floor(Math.random() * 6) + 1;
 }
 
 [currentPlayer , standbyPlayer] = ["player1", "player2"];
