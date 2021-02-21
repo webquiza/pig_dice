@@ -16,7 +16,46 @@
 ___
 # Description 
 
+### What will happen when a user clicks "Roll Dice"?
+```
+Generate a random number.
+if random number === or > 2 then addScore to currentPlayer else currentPlayer score = 0 AND passDice.
+let runningScore = Keeps track of current user score, if 1 is rolled subtract current total from current user score.
+if currentPlayer score is === or > 100, return message "You have won!". 
+```
+### What objects will you need?
 
+```
+How are you deciding to organize this information? (use object rather than array because we want key value system)
+Placeholders (key value = player1 score)
+What information do we need from each player. 
+If number is 1 go back to 0, if number reaches 100 user wins. 
+```
+
+### What key-value pairs will each object need to contain in order for the game to work?
+```
+object: player1
+key-value: player1 score
+object: player2
+key-value: player2 score
+```
+
+### What functions?
+```
+randomNumber();
+rollDice();
+passDice();
+```
+### How will these be triggered throughout the gameplay?
+```
+randomNumber() is triggered when user clicks Roll Dice and the jQuery event is trigerred which creates a random number.
+rollDice() is connected to a button.
+passDice() is connected to a button / can be triggered when a 1 is rolled. 
+```
+### How will information be collected from the user? How will it be displayed?
+```
+Via RollDice button
+```
 
 ## Setup/Installation Requirements
 
